@@ -39,4 +39,19 @@ function scrollToBlock(id) {
       alert("Произошла ошибка при отправке.");
     });
   }
+
+
+ const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        // Если нужно только один раз — отключаем наблюдение:
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  document.querySelectorAll('.fade-in-on-scroll').forEach(elem => {
+    observer.observe(elem);
+  });
   
