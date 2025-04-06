@@ -54,4 +54,18 @@ function scrollToBlock(id) {
   document.querySelectorAll('.fade-in-on-scroll').forEach(elem => {
     observer.observe(elem);
   });
+
+
+
+<script>
+  function isMobile() {
+    return /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  if (!isMobile()) {
+    document.getElementById("desktop-warning").style.display = "block";
+    document.body.style.overflow = "hidden"; // блочим прокрутку на ПК
+  }
+</script>
+
   
