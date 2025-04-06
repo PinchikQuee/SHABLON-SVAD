@@ -22,7 +22,7 @@ body {
   position: absolute;
   left: 14px;
   top: calc(4% + 6px);
-  height: calc(100.5% - 12px);
+  height: calc(100% - 12px);
   width: 2px;
   background: #ccc;
 }
@@ -178,7 +178,7 @@ z-index: 1;}
   }
   .date-text1{
 
-    top: 10%;
+    top: 7%;
     left:60.5%; 
     position: absolute;
     
@@ -186,13 +186,13 @@ z-index: 1;}
   .date-text2{
   
     left: 61.5%;
-    top: 18%;
+    top: 15%;
     position: absolute;
   }
   .date-text3{
  
     left: 62.5%;
-    top: 25%;
+    top: 22%;
     position: absolute;
   }
 
@@ -462,6 +462,6 @@ z-index: 1;}
     display: block;
   }
 #our-info {
-    margin-top:110%;
+    margin-top:105%;
     
 }
