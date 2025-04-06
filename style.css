@@ -18,8 +18,11 @@ h2 {
 .date {
 	 font-family: 'Great Vibes', cursive;
 	 font-size: 60px;
-	text-align:center;
+	
 }
+	.date-all{
+		text-align:center;
+	}
 
 
 	
@@ -418,6 +421,6 @@ z-index: 1;}
     display: block;
   }
 #our-info {
-    margin-top:70%;
+    margin-top:75%;
     
 }
