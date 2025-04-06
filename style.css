@@ -178,7 +178,7 @@ z-index: 1;}
   }
   .date-text1{
 
-    top: 12%;
+    top: 10%;
     left:60.5%; 
     position: absolute;
     
@@ -186,13 +186,13 @@ z-index: 1;}
   .date-text2{
   
     left: 61.5%;
-    top: 20%;
+    top: 18%;
     position: absolute;
   }
   .date-text3{
  
     left: 62.5%;
-    top: 28%;
+    top: 25%;
     position: absolute;
   }
 
@@ -462,6 +462,6 @@ z-index: 1;}
     display: block;
   }
 #our-info {
-    margin-top:115%;
+    margin-top:110%;
     
 }
