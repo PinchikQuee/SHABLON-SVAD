@@ -57,7 +57,7 @@ function scrollToBlock(id) {
 
 
 
-<script>
+
   function isMobile() {
     return /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   }
@@ -66,6 +66,6 @@ function scrollToBlock(id) {
     document.getElementById("desktop-warning").style.display = "block";
     document.body.style.overflow = "hidden"; // блочим прокрутку на ПК
   }
-</script>
+
 
   
