@@ -10,12 +10,11 @@ body {
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   font-family: 'Playfair Display', serif;
   background: #fefefe;
   display: flex;
   justify-content: center;
-  align-items: center; /* Центр по вертикали */
+  padding-top: 100px; /* Сдвиг вниз */
 }
 
 .timeline {
@@ -29,8 +28,8 @@ body {
 
 .line {
   position: absolute;
-  left: 14px;
-  top: calc(4% + 6px);
+  left: 14px; /* центр точек */
+  top: calc(4% + 6px); /* отступ сверху */
   height: calc(101% - 12px);
   width: 2px;
   background: #ccc;
@@ -54,14 +53,14 @@ body {
 .text .time {
   font-size: 18px;
   font-style: italic;
-  font-weight: 700; /* Толще */
+  font-weight: 600;
 }
 
 .text .desc {
-  font-size: 17px;
+  font-size: 16px;
   color: #444;
-  font-weight: 500; /* Чуть толще */
 }
+
 
 
 
