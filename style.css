@@ -187,7 +187,7 @@ z-index: 1;}
   }
   .date-text1{
 
-    top: 7%;
+    top: 9%;
     left:60.5%; 
     position: absolute;
     
@@ -195,7 +195,7 @@ z-index: 1;}
   .date-text2{
   
     left: 61.5%;
-    top: 15%;
+    top: 14%;
     position: absolute;
   }
   .date-text3{
@@ -210,7 +210,7 @@ z-index: 1;}
   
   h2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Playfair Display', serif;
   }
   
