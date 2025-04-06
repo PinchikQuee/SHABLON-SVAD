@@ -129,37 +129,26 @@ z-index: 1;}
       font-weight: 500;
   }
   .date-text1{
-  animation: myAnim 1s ease 0s 1 normal forwards;
+
     top: 12%;
     left:60.5%; 
     position: absolute;
     
   }
   .date-text2{
-   animation: myAnim 2s ease 0s 1 normal forwards;
+  
     left: 61.5%;
     top: 20%;
     position: absolute;
   }
   .date-text3{
-     animation: myAnim 3s ease 0s 1 normal forwards;
+ 
     left: 62.5%;
     top: 28%;
     position: absolute;
   }
 
-@keyframes myAnim {
-	0%,
-	50%,
-	100% {
-		opacity: 1;
-	}
 
-	25%,
-	75% {
-		opacity: 0;
-	}
-}
 
   
   h2 {
