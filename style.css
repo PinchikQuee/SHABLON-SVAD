@@ -9,6 +9,51 @@ body {
 
 
 
+.timeline {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  height: 500px;
+  background: #fff;
+  padding-left: 40px;
+}
+
+.line {
+  position: absolute;
+  left: 14px;
+  top: calc(4% + 6px);
+  height: calc(101% - 12px);
+  width: 2px;
+  background: #ccc;
+}
+
+.event {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  border-radius: 50%;
+  margin-left: -31px;
+}
+
+.text .time {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.text .desc {
+  font-size: 17px;
+  color: #444;
+  font-weight: 500;
+}
+
 
 
 
