@@ -5,7 +5,62 @@ body {
     background-color: #fff7ef;
     background-image: url('https://i.imgur.com/EpD0kRx.png'); /* сердечки */
     background-size: cover;
-    position: relative;
+    position: relative;}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  background: #fefefe;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px; /* Сдвиг вниз */
+}
+
+.timeline {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  height: 500px;
+  background: #fff;
+  padding-left: 40px;
+}
+
+.line {
+  position: absolute;
+  left: 14px; /* центр точек */
+  top: calc(4% + 6px); /* отступ сверху */
+  height: calc(101% - 12px);
+  width: 2px;
+  background: #ccc;
+}
+
+.event {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  border-radius: 50%;
+  margin-left: -31px;
+}
+
+.text .time {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.text .desc {
+  font-size: 16px;
+  color: #444;
+}
+
 
 .h3-welcome {
 	text-align:center;
