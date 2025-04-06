@@ -22,7 +22,7 @@ body {
   position: absolute;
   left: 14px;
   top: calc(4% + 6px);
-  height: calc(101% - 12px);
+  height: calc(100.5% - 12px);
   width: 2px;
   background: #ccc;
 }
@@ -462,6 +462,6 @@ z-index: 1;}
     display: block;
   }
 #our-info {
-    margin-top:100%;
+    margin-top:105%;
     
 }
