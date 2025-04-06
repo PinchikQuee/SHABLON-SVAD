@@ -21,7 +21,7 @@ body {
 .line {
   position: absolute;
   left: 14px;
-  top: calc(4% + 6px);
+  top: calc(4.2% + 6px);
   height: calc(100% - 12px);
   width: 2px;
   background: #ccc;
